@@ -1,5 +1,6 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
- com.aunicorn.boot.server.autoconfigure.AunicornAutoConfiguration
+ com.aunicorn.boot.server.autoconfigure.AunicornServerAutoConfiguration,\
+  com.aunicorn.boot.client.autoconfigure.AunicornClientAutoConfiguration
 
 org.springframework.context.ApplicationListener=\
 com.aunicorn.boot.server.listener.StartUpFailureListener

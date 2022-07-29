@@ -9,7 +9,6 @@ public class BizTest implements HelloService.Iface{
 
 	@Override
 	public String sayHello(String name) throws TException {
-
-		return "hello " + name;
+		return "hello 88" + name;
 	}
 }
