@@ -1,6 +1,6 @@
 package com.aunicorn.controller;
 
-import com.aunicorn.boot.server.service.AunicornService;
+import cn.aunicorn.boot.server.service.AunicornService;
 import org.apache.thrift.TException;
 import com.aunicorn.api.HelloService;
 

@@ -1,7 +1,7 @@
 package com.aunicorn.controller;
 
 import com.aunicorn.api.HelloService;
-import com.aunicorn.boot.client.inject.AunicornClient;
+import cn.aunicorn.boot.client.inject.AunicornClient;
 import org.apache.thrift.TException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,11 +11,12 @@ import javax.servlet.http.HttpServletResponse;
 @RestController
 public class TestController{
 
-	@AunicornClient("http://127.0.0.1:9090/hello")
+	@AunicornClient(url = "/hello", serviceId = "service-provider")
 	private HelloService.Iface helloService;
 
+
 	@RequestMapping("/index")
-	public String service(HttpServletRequest req, HttpServletResponse resp) {
+	public String service(HttpServletRequest req, HttpServletResponse resp) throws TException {
 		return "hello u99933";
 	}
 
