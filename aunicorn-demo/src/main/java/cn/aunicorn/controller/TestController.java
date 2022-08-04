@@ -1,6 +1,6 @@
-package com.aunicorn.controller;
+package cn.aunicorn.controller;
 
-import com.aunicorn.api.HelloService;
+import cn.aunicorn.api.HelloService;
 import cn.aunicorn.boot.client.inject.AunicornClient;
 import org.apache.thrift.TException;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,8 +1,8 @@
-package com.aunicorn.controller;
+package cn.aunicorn.controller;
 
 import cn.aunicorn.boot.server.service.AunicornService;
 import org.apache.thrift.TException;
-import com.aunicorn.api.HelloService;
+import cn.aunicorn.api.HelloService;
 
 @AunicornService("/hello")
 public class BizTest implements HelloService.Iface{

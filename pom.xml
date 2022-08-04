@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.aunicorn</groupId>
+    <groupId>cn.aunicorn</groupId>
     <artifactId>aunicorn</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
-        <module>aunicorn-http-thrift</module>
+        <module>aunicorn-http-thrift-starter</module>
         <module>aunicorn-demo</module>
     </modules>
 
